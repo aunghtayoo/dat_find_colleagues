@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_info_bs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:elevation="16dp"
+    android:fitsSystemWindows="true"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/img_icon_medium"
+                android:layout_height="@dimen/img_icon_medium"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium_2"
+                android:src="@drawable/ic_outline_settings_24"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium_2"
+                android:fontFamily="@font/theme_font"
+                android:text="Edit Info"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgSettingClose"
+                android:layout_width="@dimen/img_icon_medium"
+                android:layout_height="@dimen/img_icon_medium"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_medium_2"
+                android:src="@drawable/ic_baseline_close_24" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium_2"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEditUserName"
+            style="@style/input_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="@dimen/margin_medium_2"
+            android:hint="Your Name"
+            app:errorEnabled="true"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textEditUserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_input_text"
+                android:hint="Enter your name"
+                android:inputType="text|textAutoComplete"
+                android:maxLength="50"
+                android:paddingLeft="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular_2x" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEditPhoneNo"
+            style="@style/input_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="@dimen/margin_medium_2"
+            app:errorEnabled="true"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textEditPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_input_text"
+                android:hint="Phone (09xxxxxxxxx)"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular_2x" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEditStaffId"
+            style="@style/input_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="@dimen/margin_medium_2"
+            app:errorEnabled="true"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textEditStaffId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_input_text"
+                android:hint="Staff ID (XX-00XXX)"
+                android:inputType="text|textAutoComplete"
+                android:maxLength="10"
+                android:paddingLeft="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular_2x" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium_2"
+            android:layout_marginRight="@dimen/margin_medium_2"
+            android:layout_marginBottom="@dimen/margin_medium_2">
+
+            <ImageView
+                android:id="@+id/ic_info"
+                android:layout_width="@dimen/img_icon_small"
+                android:layout_height="@dimen/img_icon_small"
+                android:src="@drawable/ic_outline_info_24"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_toEndOf="@+id/ic_info"
+                android:text="This phone number is use for calling each others for taxi sharing."
+                android:textColor="@color/color_black"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnEditSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="@dimen/margin_medium_2"
+            android:background="@drawable/bg_primary_button"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_regular_2x"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

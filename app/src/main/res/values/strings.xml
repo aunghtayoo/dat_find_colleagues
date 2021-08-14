@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Find Colleagues</string>
+    <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
+</resources>

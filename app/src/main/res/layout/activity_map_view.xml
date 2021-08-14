@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.MapViewActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium_2"
+                android:fontFamily="@font/theme_font"
+                android:text="Colleagues Near By"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />-->
+
+            <!--<com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/checkLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium_2"
+                android:checked="true"
+                android:fontFamily="@font/theme_font"
+                android:gravity="center"
+                android:text="Show me on map"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />-->
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchVisibleOnMap"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium_2"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/switchVisibleOnMap"
+                android:fontFamily="@font/theme_font"
+                android:gravity="center_vertical"
+                android:text="Show me on map"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgSetting"
+                android:layout_width="@dimen/img_icon_medium"
+                android:layout_height="@dimen/img_icon_medium"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_medium_2"
+                android:padding="@dimen/margin_tiny"
+                android:src="@drawable/ic_outline_edit_24" />
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mapView"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/fakeMapBottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/activity_map_view_edit_info_bottom_sheet" />
+
+    <include layout="@layout/activity_map_view_option_bottom_sheet" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

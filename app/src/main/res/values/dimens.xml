@@ -1,0 +1,93 @@
+<resources>
+
+    <dimen name="toolbarTextSize">@dimen/text_regular_3x</dimen>
+    <dimen name="toolbarImage">@dimen/mat_measure_xlarge</dimen>
+    <dimen name="toolbarIcon">@dimen/img_icon_medium</dimen>
+
+    <!-- material measurements -->
+    <dimen name="mat_measure_tiny">1dp</dimen>
+    <dimen name="mat_measure_smaller">2dp</dimen>
+    <dimen name="mat_measure_small">4dp</dimen>
+    <dimen name="mat_measure_medium">8dp</dimen>
+    <dimen name="mat_measure_medium_2">12dp</dimen>
+    <dimen name="mat_measure_medium_3">16dp</dimen>
+    <dimen name="mat_measure_medium_4">20dp</dimen>
+    <dimen name="mat_measure_medium_5">24dp</dimen>
+    <dimen name="mat_measure_large">28dp</dimen>
+    <dimen name="mat_measure_large_2">32dp</dimen>
+    <dimen name="mat_measure_large_3">36dp</dimen>
+    <dimen name="mat_measure_large_4">40dp</dimen>
+    <dimen name="mat_measure_large_5">44dp</dimen>
+    <dimen name="mat_measure_xlarge">48dp</dimen>
+    <dimen name="mat_measure_xlarge_2">52dp</dimen>
+    <dimen name="mat_measure_xlarge_3">56dp</dimen>
+    <dimen name="mat_measure_xlarge_4">60dp</dimen>
+    <dimen name="mat_measure_wide">64dp</dimen>
+    <dimen name="mat_measure_wide_2">68dp</dimen>
+    <dimen name="mat_measure_wide_3">72dp</dimen>
+    <dimen name="mat_measure_wide_4">76dp</dimen>
+    <dimen name="mat_measure_wide_5">80dp</dimen>
+
+    <!-- material margins -->
+
+    <!-- layout margins -->
+    <dimen name="margin_tiny">@dimen/mat_measure_tiny</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_small_2">6dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_medium_1_5">12dp</dimen>
+    <dimen name="margin_medium_2">16dp</dimen>
+    <dimen name="margin_card_medium_2">12dp</dimen>
+    <dimen name="margin_medium_3">20dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_wide">48dp</dimen>
+    <dimen name="margin_wide_2x">72dp</dimen>
+    <dimen name="margin_wide_3x">96dp</dimen>
+
+    <!-- layout margins negative -->
+    <dimen name="margin_small_n">-4dp</dimen>
+    <dimen name="margin_card_medium_n">-6dp</dimen>
+    <dimen name="margin_medium_n">-8dp</dimen>
+    <dimen name="margin_card_medium_2_n">-12dp</dimen>
+    <dimen name="margin_medium_2_n">-16dp</dimen>
+    <dimen name="margin_medium_3_n">-18dp</dimen>
+    <dimen name="margin_large_n">-24dp</dimen>
+    <dimen name="margin_xlarge_n">-32dp</dimen>
+
+    <!-- text size -->
+    <dimen name="text_tiny">8sp</dimen>
+    <dimen name="text_smaller">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="text_regular_2x">16sp</dimen>
+    <dimen name="text_regular_3x">20sp</dimen>
+    <dimen name="text_heading">20sp</dimen>
+    <dimen name="text_heading_1x">24sp</dimen>
+    <dimen name="text_heading_2x">32sp</dimen>
+    <dimen name="text_big">40sp</dimen>
+    <dimen name="text_big_2x">60sp</dimen>
+    <dimen name="text_big_3x">80sp</dimen>
+    <dimen name="text_huge">100sp</dimen>
+    <dimen name="text_title_toolbar">16sp</dimen>
+    <dimen name="text_action_toolbar">16sp</dimen>
+
+    <!-- images size -->
+    <dimen name="ic_label">8dp</dimen>
+    <dimen name="img_icon_small">24dp</dimen>
+    <dimen name="img_icon_medium">32dp</dimen>
+    <dimen name="img_icon_medium_2">48dp</dimen>
+    <dimen name="img_icon_large">64dp</dimen>
+    <dimen name="img_pic_small">96dp</dimen>
+    <dimen name="img_pic_medium">128dp</dimen>
+    <dimen name="img_pic_large">160dp</dimen>
+
+    <!-- form layout -->
+    <dimen name="min_input_height">48dp</dimen>
+    <dimen name="form_button_height">40dp</dimen>
+    <dimen name="form_button_width">128dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_action_width">96dp</dimen>
+
+</resources>

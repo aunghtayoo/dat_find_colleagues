@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849454282694",
+    "firebase_url": "https://find-colleagues.firebaseio.com",
+    "project_id": "find-colleagues",
+    "storage_bucket": "find-colleagues.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849454282694:android:8663a0aba06dae7409e4c7",
+        "android_client_info": {
+          "package_name": "mm.com.diracetech.findcolleagues"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849454282694-r5fp7tev7qrv1oaitk4dqe1favlfg7as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mm.com.diracetech.findcolleagues",
+            "certificate_hash": "61db7d1b70cd35abac0dd1df1240155ffcde406e"
+          }
+        },
+        {
+          "client_id": "849454282694-i1nlajiduin3t1t1dbn2gpibvu39lkb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWyCajAUpuJhP3bLcYeCQIooB7Tve-OaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849454282694-i1nlajiduin3t1t1dbn2gpibvu39lkb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
