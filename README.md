@@ -17,6 +17,7 @@
 <h1><u>Screenshots</u></h1>
 ![alt text](https://drive.google.com/file/d/1d0zWYUwx_cz7aPNWLNZvl5TnmlCu6se1/view?usp=sharing)
 ![alt text](https://drive.google.com/file/d/1ihbEOZZSAUkXcgvTLgP95Y4iuOg8svjS/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/10d1ueLwvpdArYQrakW2NItdVEGrs-tJZ/view?usp=sharing) 
+![alt text](https://drive.google.com/file/d/10d1ueLwvpdArYQrakW2NItdVEGrs-tJZ/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=1irVwAsxoCPeuBfXJLIUtARlZ-VoP3BiL) 
 
 <code>Copyright(c)2020 DAT. All Rights Reserved.</code>
