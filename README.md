@@ -15,12 +15,11 @@
 </ul>
 
 <h1><u>Screenshots</u></h1>
-![alt text](https://drive.google.com/file/d/1d0zWYUwx_cz7aPNWLNZvl5TnmlCu6se1/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/1ihbEOZZSAUkXcgvTLgP95Y4iuOg8svjS/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/10d1ueLwvpdArYQrakW2NItdVEGrs-tJZ/view?usp=sharing)
 
-![image](https://drive.google.com/uc?export=view&id=1irVwAsxoCPeuBfXJLIUtARlZ-VoP3BiL) 
-![image](https://drive.google.com/uc?export=view&id=1-7EzaC4livGMCkFKdJCt6YpmzaeLIh6-)
-![image](https://drive.google.com/uc?export=view&id=1Z7fTQ_3Qv7paGC_2hoMg_F7IYqS7sd2A)
+<p float="left">
+  <img src="https://drive.google.com/uc?export=view&id=1d0zWYUwx_cz7aPNWLNZvl5TnmlCu6se1" width="300" />
+  <img src="https://drive.google.com/uc?export=view&id=1ihbEOZZSAUkXcgvTLgP95Y4iuOg8svjS" width="300" /> 
+  <img src="https://drive.google.com/uc?export=view&id=10d1ueLwvpdArYQrakW2NItdVEGrs-tJZ" width="300" />
+</p>
 
 <code>Copyright(c)2020 DAT. All Rights Reserved.</code>
